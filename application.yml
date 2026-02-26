@@ -1,0 +1,17 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+
+lavalink:
+  server:
+    password: "Pea031002P"
+    sources:
+      youtube: false   # ❗ ต้องปิดตัวเก่า
+      soundcloud: false
+      http: true
+    bufferDurationMs: 400
+    youtubePlaylistLoadLimit: 6
+
+plugins:
+  - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.0"
+    repository: "https://maven.lavalink.dev/releases"
